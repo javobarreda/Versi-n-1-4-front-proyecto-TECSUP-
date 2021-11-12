@@ -265,6 +265,9 @@ h1, h2, h3, h4, h5, h6{
     background-size: cover;
     background-position: center center;
 }
+.container-categoria h2{
+    color: white;
+}
 
 .categoria_prod{
     height: 50px;
@@ -302,3 +305,5 @@ h1, h2, h3, h4, h5, h6{
 .hr-3{
     color:#1b1b1b;
 }
+
+/*4 LO MAS NUEVO */

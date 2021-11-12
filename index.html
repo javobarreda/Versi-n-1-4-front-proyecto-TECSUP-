@@ -34,9 +34,9 @@
                             <nav class="navbar">
                                 <ul class="navbar_menu">
                                     <li><a href="#">Inicio</a></li>
-                                    <li><a href="#">Cotiza tu Experiencia Gamer</a></li>
                                     <li><a href="#">Productos</a></li>
                                     <li><a href="#">Más vendidos</a></li>
+                                    <li><a href="#">Lo más nuevo</a></li>
                                     <li><a href="#">Contacto</a></li>
                                 </ul>
                                 <ul class="navbar_user">
@@ -72,9 +72,10 @@
 
 <!--PRODUCTOS categoria-->
 <div class="categorias">
-    <dic class="container">
+    <dic class="container-categoria">
+        <h2>Productos</h2>
         <div class="row">
-
+    
             <div class="col-md-4">
                 <div class="categoria_item align-item-center" style="background-image: url(fotos-productos/Sillas.jpg);">
                  <div class="categoria_prod">
@@ -163,8 +164,107 @@
         </div>
     </dic>
 </div>
-<!--New Arrivals-->
+<!--Últimos productos-->
+<div class="new_arrivals">
+    <div class="container">
 
+        <div class="row">
+            <div class="col text-center">
+                <div class="section_title new_arrivals_title">
+                    <h2>New Arrivals</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row align-items-center">
+            <div class="col text-center">
+                <div class="new_arrivals_sorting">
+                    <ul class="arrivals_grid_sorting clearfix button-group filters-button-group">
+                        <li class="grid_sorting_button button d-flex flex-colum justify-content align-items-center active is-checked" data-filter="*">Todo</li>
+                        <li class="grid_sorting_button button d-flex flex-colum justify-content align-items-center" data-filter=".Random">Random</li>
+                        <li class="grid_sorting_button button d-flex flex-colum justify-content align-items-center " data-filter=".Audifonos">Audifonos</li>
+                        <li class="grid_sorting_button button d-flex flex-colum justify-content align-items-center " data-filter=".Sillas">Sillas</li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="product-grid" data-isotope='{ "itemSelector": ".product-item", "layoutMode": "fitRows"}'>
+                
+                
+                    <!--Producto 1-->
+                    <div class="product-item Random">
+                        <div class="product discount product_filter">
+                            <div class="product_image">
+                                <img src="/fotos-productos/audifonosstarwarsnaranja.jpg" alt="">
+                            </div>
+                            <div class="favorite favorite_left"></div>
+                            <div class="product_bubble product_bubble_right product_bubble_red d-flex flex-column align-items-center">
+                                <span>-$ 10 </span>
+                            </div>
+                            <div class="product_info">
+                                <h6 class="product_name"><a href="#">Funko Mando</a></h6>
+                                <div class="product_price">$ 45.00 <span>$ 50.00</span></div>
+                            </div>
+                        </div>
+                        <div class="red_button add_to_cart_button"><a href="#">Agregar al carrito</a></div>
+                    </div>
+
+                    <!--Producto 2-->
+                    <div class="product-item Audifonos">
+                        <div class="product product_filter">
+                            <div class="product_image">
+                                <img src="/fotos-productos/audifonosstarwarsnaranja.jpg" alt="">
+                            </div>
+                            <div class="favorite favorite_left"></div>
+                            <div class="product_bubble product_bubble_right product_bubble_red d-flex flex-column align-items-center">
+                                <span> EN STOCK </span>
+                            </div>
+                            <div class="product_info">
+                                <h6 class="product_name"><a href="#">Audífonos rojos LED</a></h6>
+                                <div class="product_price">$ 45.00 <span>$ 50.00</span></div>
+                            </div>
+                        </div>
+                        <div class="red_button add_to_cart_button"><a href="#">Agregar al carrito</a></div>
+                    </div>
+
+                    <!--Producto 3-->
+                    <div class="product-item Sillas">
+                        <div class="product product_filter">
+                            <div class="product_image">
+                                <img src="/fotos-productos/audifonosstarwarsnaranja.jpg" alt="">
+                            </div>
+                            <div class="favorite"></div>
+
+                            <div class="product_info">
+                                <h6 class="product_name"><a href="#">Silla azul</a></h6>
+                                <div class="product_price">$ 450.00 </div>
+                            </div>
+                        </div>
+                        <div class="red_button add_to_cart_button"><a href="#">Agregar al carrito</a></div>
+                    </div>
+
+                        <!--Producto 4-->
+                        <div class="product-item Audifonos">
+                            <div class="product product_filter">
+                                <div class="product_image">
+                                    <img src="/fotos-productos/audifonosstarwarsnaranja.jpg" alt="">
+                                </div>
+                                <div class="favorite"></div>
+                                
+                                <div class="product_info">
+                                    <h6 class="product_name"><a href="#">Audifonos Star Wars Rebeldes</a></h6>
+                                    <div class="product_price">$ 150.00 </div>
+                                </div>
+                            </div>
+                            <div class="red_button add_to_cart_button"><a href="#">Agregar al carrito</a></div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 
     </div>
